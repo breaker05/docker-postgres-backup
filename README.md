@@ -4,4 +4,5 @@ Backup from a remote postgres db and restore to local container. Ideal for pulli
 
 Run the following command to build and run after setting your environment variables.
 
-`docker-compose --env-file .env.dev -p {profileName} up
+```
+docker-compose --env-file .env.dev -p {profileName} up
